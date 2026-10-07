@@ -1,6 +1,6 @@
 import secrets
 """
-app.py – SPEIS  (Student Performance & Educational Intelligence System)
+SPEIS  (Student Performance & Educational Intelligence System)
 Roles: Admin | Teacher | Student
 """
 import io, datetime, zipfile
