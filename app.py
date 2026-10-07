@@ -429,14 +429,6 @@ def login_screen():
                     st.rerun()
                 else:
                     st.error("Invalid credentials or role mismatch.")
-        with st.expander("🔑 Demo credentials"):
-            st.markdown("""
-| Role | Username | Password |
-|------|----------|----------|
-| Admin | `admin` | `admin123` |
-| Teacher | `teacher` | `teacher123` |
-| Student | `student` | `student123` |
-""")
         st.caption("Forgot your password? Please contact the school administrator.")
 
 
